@@ -12,7 +12,7 @@ const about = {
   name: "Moumita Ahamed",
   dob: "January 1st, 1997",
   location: "Kolkata, India",
-  email: "moumita@example.com",
+  email: "ahamed.moumita786@gmail.com",
   phone: "+91 6296168624",
   linkedin: "https://www.linkedin.com/in/moumita-ahamed",
   description:
