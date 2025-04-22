@@ -10,11 +10,11 @@ import ApiIcon from "@mui/icons-material/Api";
 
 const about = {
   name: "Moumita Ahamed",
-  dob: "January 15, 1995",
+  dob: "January 1st, 1997",
   location: "Kolkata, India",
   email: "moumita@example.com",
-  phone: "+91 9876543210",
-  linkedin: "https://linkedin.com/in/moumita",
+  phone: "+91 6296168624",
+  linkedin: "https://www.linkedin.com/in/moumita-ahamed",
   description:
     "I am a passionate full-stack developer with expertise in JavaScript, React.js, PHP, and backend technologies. I love building high-performance, scalable web applications.",
   skills: [
