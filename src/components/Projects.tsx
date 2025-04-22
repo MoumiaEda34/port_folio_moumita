@@ -25,14 +25,6 @@ interface Project {
 const projectsData: Project[] = [
   {
     id: 1,
-    title: 'Online Puja Services, Online Puja Booking',
-    description:
-      'Pujapariseva.com is an online platform offering a wide range of puja services, rituals, and spiritual ceremonies, allowing users to book them effortlessly.',
-    image: '/images/pujapariseva.jpg',
-    category: 'ASP.NET Development',
-  },
-  {
-    id: 2,
     title: 'Yum Drop - Food Delivery App',
     description:
       'A mobile application designed for smooth food ordering, real-time delivery tracking, and secure online payment integration.',
@@ -40,15 +32,7 @@ const projectsData: Project[] = [
     category: 'React.js Development',
   },
   {
-    id: 3,
-    title: 'Fastinfo Attendance Portal',
-    description:
-      'A web-based attendance management portal designed to simplify employee tracking, attendance monitoring, and reporting.',
-    image: '/images/fastinfo.jpg',
-    category: 'Web',
-  },
-  {
-    id: 4,
+    id: 2,
     title: 'Travel Company',
     description:
       'A professionally designed landing page for a travel agency, highlighting tour packages, destinations, and easy booking options.',
@@ -56,7 +40,7 @@ const projectsData: Project[] = [
     category: 'React.js Development',
   },
   {
-    id: 5,
+    id: 3,
     title: 'Laravel Blog Application',
     description:
       'A feature-rich blog platform built with Laravel, including post management, category filtering, comments, and an admin dashboard.',
@@ -64,7 +48,7 @@ const projectsData: Project[] = [
     category: 'PHP Development',
   },
   {
-    id: 6,
+    id: 4,
     title: 'Online Store',
     description:
       'A fully responsive e-commerce website featuring product listings, shopping cart functionality, and secure checkout integration.',
@@ -72,15 +56,7 @@ const projectsData: Project[] = [
     category: 'React.js Development',
   },
   {
-    id: 7,
-    title: 'DigitalEdgeX - Driving Revenue with Digital Maturity',
-    description:
-      'DigitalEdgeX enables businesses to achieve digital maturity by automating marketing operations, improving efficiency, and driving revenue growth.',
-    image: '/images/digitaledge.jpg',
-    category: 'PHP Development',
-  },
-  {
-    id: 8,
+    id: 5,
     title: 'Book Orchid - Online Library Management System',
     description:
       'An online library management system designed to manage book collections, user registrations, and borrowing activities efficiently with a user-friendly interface.',
@@ -88,7 +64,7 @@ const projectsData: Project[] = [
     category: 'React.js Development',
   },
   {
-    id: 9,
+    id: 6,
     title: 'Shop Online',
     description:
       'A modern online shopping platform featuring responsive design, product catalogs, cart management, and secure checkout for a seamless user experience.',
@@ -97,7 +73,7 @@ const projectsData: Project[] = [
   },
 ];
 
-const categories = ['All', 'PHP Development', 'ASP.NET Development', 'React.js Development'];
+const categories = ['All', 'PHP Development', 'React.js Development'];
 
 export default function ProjectsPage() {
   const [activeCategory, setActiveCategory] = useState('All');
